@@ -2042,7 +2042,7 @@ const _orqV75dZ5ZyURJOoG2ukjgt5QyJeXm74o11yoPcs4 = (function(nitro) {
 
 const rootDir = "/Users/umrbek/.gemini/antigravity/scratch/uzbekistan-ai-nuxt";
 
-const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"},{"name":"description","content":"O'zbekiston mehnat bozoriga sun'iy intellekt ta'sirini vizuallashtiruvchi interaktiv dashboard."}],"link":[],"style":[],"script":[],"noscript":[],"title":"O'zbekiston mehnat bozoriga AI ta'siri"};
+const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"},{"name":"description","content":"O'zbekiston mehnat bozoriga sun'iy intellekt ta'sirini vizuallashtiruvchi interaktiv dashboard."}],"link":[{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"}],"style":[],"script":[],"noscript":[],"title":"O'zbekiston mehnat bozoriga AI ta'siri"};
 
 const appRootTag = "div";
 

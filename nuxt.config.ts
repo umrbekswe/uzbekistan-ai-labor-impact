@@ -15,6 +15,9 @@ export default defineNuxtConfig({
       title: "O'zbekiston mehnat bozoriga AI ta'siri",
       meta: [
         { name: 'description', content: "O'zbekiston mehnat bozoriga sun'iy intellekt ta'sirini vizuallashtiruvchi interaktiv dashboard." }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
       ]
     }
   }
