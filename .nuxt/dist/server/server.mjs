@@ -1,0 +1,1 @@
+export { default } from "file:///Users/umrbek/.gemini/antigravity/scratch/uzbekistan-ai-nuxt/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs"
