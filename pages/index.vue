@@ -76,6 +76,10 @@
         <div class="sidebar__subdesc">yuqori ta'sir darajasidagi kasblar yillik ish haqi (7+)</div>
         <div class="gradient-bar"><span>Past</span><div class="gradient-bar__track" /><span>Yuqori</span></div>
       </div>
+
+      <div class="sidebar__disclaimer">
+        <strong>Disclaimer:</strong> Saytdagi barcha ma'lumotlar ochiq manbalardan yig'ilgan va mustaqil ravishda taqdim etilmoqda. Ushbu loyiha hech qanday davlat tashkilotining rasmiy veb-sayti hisoblanmaydi.
+      </div>
     </aside>
 
     <button class="sidebar-toggle" :style="{ left: isSidebarOpen ? '228px' : '0' }" @click="isSidebarOpen = !isSidebarOpen">
@@ -485,6 +489,16 @@ function truncate(name, rw) {
 .gradient-bar { display: flex; align-items: center; gap: 6px; margin-top: 14px; }
 .gradient-bar span { font-size: 9.5px; color: #666; }
 .gradient-bar__track { flex: 1; height: 6px; background: linear-gradient(90deg, #4ADE80, #FBBF24, #EF4444); border-radius: 3px; }
+
+.sidebar__disclaimer {
+  margin-top: 10px;
+  padding-top: 16px;
+  font-size: 9.5px;
+  color: #666;
+  line-height: 1.5;
+  border-top: 1px dashed #222;
+}
+.sidebar__disclaimer strong { color: #888; font-weight: 600; }
 
 .sidebar-toggle {
   position: absolute; bottom: 24px; z-index: 50;
